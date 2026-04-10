@@ -79,20 +79,6 @@
             transform: translateY(0);
         }
 
-        .feature-list li {
-            position: relative;
-            padding-left: 1.5rem;
-            margin-bottom: 0.5rem;
-            font-size: 0.875rem;
-            color: #6B7280;
-        }
-        .feature-list li::before {
-            content: "✔";
-            position: absolute;
-            left: 0;
-            font-weight: bold;
-        }
-
         .profile-border {
             border: 6px solid #fff;
             box-shadow: 0 8px 30px rgba(232, 211, 193, 0.5);
@@ -140,90 +126,90 @@
         <div class="px-6 md:px-16 pt-8 pb-16">
             <h2 class="text-2xl md:text-3xl font-serif font-bold text-center leading-[1.8] mb-12 text-text-main">
                 看護師向け転職サービスの比較<br>
-                <span class="marker-soft text-xl md:text-2xl">自分に合った働き方を見つけるために</span>
+                <span class="marker-soft text-xl md:text-2xl">後悔しない職場選びの第一歩</span>
             </h2>
 
             <div class="space-y-10 text-[15px] md:text-[16px] leading-[2.2] text-text-main/90 font-serif">
                 <div class="reveal">
                     <p class="mb-4">
                         看護師の転職では、複数のサービスを比較しながら進めることが一般的です。<br>
-                        条件を比較せずに決めると、あとから「もっと詳しく見ておけばよかった」とズレに気づくこともあります。
+                        それぞれ特徴が異なるため、自分に合ったサービスを選ぶことが大切です。
                     </p>
-                    <p class="font-bold text-soft-brown">
-                        だからこそ、最初から2〜3社見て比較しながら進めるのがおすすめです。
+                    <p class="text-sm text-gray-500">
+                        ※本サイトでは看護師向け転職サービスの情報をまとめています。
                     </p>
                 </div>
 
                 <div class="reveal flex items-center gap-2 py-4 border-y border-natural-accent/20">
-                    <i data-lucide="info" class="text-soft-brown w-5 h-5"></i>
-                    <span class="font-bold text-lg font-sans">主な転職サービスの特徴</span>
+                    <i data-lucide="layout-list" class="text-soft-brown w-5 h-5"></i>
+                    <span class="font-bold text-lg font-sans">主な転職サービス</span>
                 </div>
 
                 <!-- Comparison Cards -->
-                <div class="pt-4 space-y-12 font-sans">
+                <div class="pt-4 space-y-16 font-sans">
                     
                     <!-- 1. Leverwell -->
                     <div class="reveal">
-                        <h3 class="font-bold text-lg mb-2 text-text-main flex items-center gap-2">
-                            <span class="text-levwell-blue font-serif">▶</span>
+                        <h3 class="font-bold text-lg mb-2 text-text-main">
                             レバウェル看護
                         </h3>
-                        <p class="text-sm text-gray-600 leading-relaxed mb-4">
-                            求人数が多く、幅広い選択肢の中から求人を探せるのが特徴です。履歴書の添削や面接対策などのサポートも無料で提供されています。
-                        </p>
-                        <ul class="feature-list mb-6 text-levwell-blue">
-                            <li>求人数が多く、条件を比較しやすい</li>
-                            <li>履歴書添削・面接対策などのサポート</li>
-                            <li>LINEやメールでのスムーズなやり取り</li>
-                        </ul>
+                        <div class="text-sm text-gray-600 leading-relaxed mb-6 space-y-2">
+                            <p>
+                                求人数が多く、幅広い選択肢の中から求人を探せるサービスです。
+                            </p>
+                            <p>
+                                全国対応しており、初めて転職する方にも利用されています。履歴書添削や面接対策などのサポートも提供されています。
+                            </p>
+                        </div>
                         <a href="https://kango-oshigoto.jp/" target="_blank" rel="noopener noreferrer" class="btn-link w-full md:w-auto px-10 py-4 rounded-xl bg-levwell-blue text-white font-bold text-sm shadow-lg shadow-blue-100">
-                            レバウェル看護を見る
+                            公式サイトはこちら
                         </a>
                     </div>
 
                     <!-- 2. Repath -->
                     <div class="reveal">
-                        <h3 class="font-bold text-lg mb-2 text-text-main flex items-center gap-2">
-                            <span class="text-repath-red font-serif">▶</span>
+                        <h3 class="font-bold text-lg mb-2 text-text-main">
                             リーパスナース
                         </h3>
-                        <p class="text-sm text-gray-600 leading-relaxed mb-4">
-                            看護師に寄り添った手厚いサポートが特徴のサービスです。在宅・訪問看護領域にも強く、一人ひとりに合わせた丁寧な相談が可能です。
-                        </p>
-                        <ul class="feature-list mb-6 text-repath-red">
-                            <li>LINE中心の連絡で電話負担が少ない</li>
-                            <li>納得いくまで何度でも受けられる面接対策</li>
-                            <li>訪問看護など専門的な働き方の相談に強い</li>
-                        </ul>
+                        <div class="text-sm text-gray-600 leading-relaxed mb-6 space-y-2">
+                            <p>
+                                看護師に寄り添ったサポートが特徴のサービスです。
+                            </p>
+                            <p>
+                                在宅・訪問看護領域の求人にも対応しており、LINEでのやり取りなど柔軟なサポートが受けられます。
+                            </p>
+                        </div>
                         <a href="https://lp.commitad.com/repath-nurse/01/?_rt_ck=10190.260419350716" target="_blank" rel="noopener noreferrer" class="btn-link w-full md:w-auto px-10 py-4 rounded-xl bg-repath-red text-white font-bold text-sm shadow-lg shadow-red-100">
-                            リーパスナースを見る
+                            公式サイトはこちら
                         </a>
                     </div>
 
                     <!-- 3. Hatarako -->
                     <div class="reveal">
-                        <h3 class="font-bold text-lg mb-2 text-text-main flex items-center gap-2">
-                            <span class="text-hatarako-green font-serif">▶</span>
+                        <h3 class="font-bold text-lg mb-2 text-text-main">
                             ナースではたらこ
                         </h3>
-                        <p class="text-sm text-gray-600 leading-relaxed mb-4">
-                            非公開求人の紹介や、希望する医療機関への「逆指名」相談が可能です。全国の広範な医療機関データをもとに、効率的な転職活動をサポートします。
-                        </p>
-                        <ul class="feature-list mb-6 text-hatarako-green">
-                            <li>登録者限定の非公開求人が充実</li>
-                            <li>気になる特定の病院への応募相談が可能</li>
-                            <li>大手企業運営による安心のサポート体制</li>
-                        </ul>
+                        <div class="text-sm text-gray-600 leading-relaxed mb-6 space-y-2">
+                            <p>
+                                非公開求人の紹介や、医療機関への応募相談が可能なサービスです。
+                            </p>
+                            <p>
+                                全国の医療機関情報をもとに、転職活動をサポートしています。
+                            </p>
+                        </div>
                         <a href="https://www.hatarako.net/agent/nurse/index.html" target="_blank" rel="noopener noreferrer" class="btn-link w-full md:w-auto px-10 py-4 rounded-xl bg-hatarako-green text-white font-bold text-sm shadow-lg shadow-emerald-100">
-                            ナースではたらこを見る
+                            詳細はこちら
                         </a>
                     </div>
                 </div>
 
-                <div class="reveal mt-12">
-                    <h3 class="font-bold text-text-main mb-4 border-l-4 border-soft-brown pl-4">まとめ</h3>
-                    <p class="text-sm mb-6">
-                        転職活動では、どれか1つに絞るのではなく、複数のサービスを比較しながら進めることで、より納得のいく職場を見つけやすくなります。
+                <div class="reveal mt-12 bg-natural-bg/50 p-6 rounded-2xl border border-natural-accent/20">
+                    <h3 class="font-bold text-text-main mb-3 flex items-center gap-2">
+                        <i data-lucide="info" class="w-4 h-4"></i>
+                        まとめ
+                    </h3>
+                    <p class="text-sm leading-relaxed">
+                        転職活動では複数のサービスを比較しながら進めることで、より自分に合った職場を見つけやすくなります。
                     </p>
                 </div>
 
@@ -248,7 +234,7 @@
                         <div class="text-[13px] md:text-sm leading-relaxed text-gray-600">
                             <p class="font-bold text-text-main mb-1">成美（Narumi）</p>
                             <p class="text-[10px] text-gray-400 mb-3 uppercase tracking-tighter font-bold">Visiting Nurse / Mom of 2</p>
-                            <p>急性期病棟での経験を経て、現在は育児を優先しながら訪問看護師として勤務。自身の経験から、看護師の多様な働き方や転職に役立つ情報を発信しています。</p>
+                            <p>急性期病棟での経験を経て、現在は育児を優先しながら訪問看護師として勤務。自身の経験をもとに、看護師の働き方や転職活動に役立つ情報を発信しています。</p>
                         </div>
                     </div>
                 </div>
